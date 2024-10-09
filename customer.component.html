@@ -1,0 +1,23 @@
+
+<h2 class="text-center mt-4">from</h2>
+   
+<div class="container mt-4" style="padding-left:35%">
+    <div class="col-6 mt-4">
+        <label for="name">CustID</label>
+        <input type="text" class="from-control" [(ngModel)]="objCustomer.CustID">
+       </div>
+       
+        <div class="col-6 mt-4">
+            <label for="name">Name</label>
+            <input type="text" class="from-control" [(ngModel)]="objCustomer.Name" >
+           </div>
+           <div class="col-6 mt-4">
+            <label for="address">Address</label>
+            <input type="text"class="from-control" [(ngModel)]="objCustomer.Address" >
+        </div>
+        <div class="col-6 mt-4">
+            <label for="Email">Email</label>
+            <input type="address" [(ngModel)]="objCustomer.Email">
+        </div>
+        <button class="btn btn-primary mt-4 me-3" (click)="save();">save</button>
+      </div> 
